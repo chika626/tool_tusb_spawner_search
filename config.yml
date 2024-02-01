@@ -1,0 +1,9 @@
+run:
+  # スポナー収集用のパス
+  source: "C:/Users/stitc/AppData/Roaming/.minecraft/saves/The Unusual SkyBlock v12.0.9_/region/"
+  output_txt: "spawners_pos.txt"
+fin: 
+  # 完走判定に使うパス
+  source: "C:/Users/stitc/AppData/Roaming/.minecraft/saves/The Unusual SkyBlock v12.0.9/region/"
+  # run.pyで `output_txt` として作ったものを指定する
+  spawners_txt: "spawners_pos.txt"
